@@ -21,7 +21,7 @@ const data = [
 
 const CustomerMapChart = () => {
   return (
-    <div className="p-4 rounded-2xl shadow-lg bg-white h-[360px] w-100">
+    <div className="p-4 rounded-2xl shadow-lg bg-white h-[430px] w-[456px]">
       <div className="flex items-center justify-between mb-2">
         <h2 className="text-[24px] font-bold text-[#464255] ">Customer Map</h2>
       </div>

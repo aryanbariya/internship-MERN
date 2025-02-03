@@ -6,9 +6,9 @@ const RevenueLineChart = () => {
     const revenue2021 = [22, 28, 20, 24, 35, 26, 32, 40, 36, 30, 34, 38];
 
     return (
-        <div className='w-[700px] h-[360px] bg-white rounded-xl justify-center items-center pt-4'>
+        <div className='w-[972px] h-[430px] bg-white rounded-xl justify-center items-center pt-4'>
             <div className="text-[24px] font-bold text-[#464255]  ml-6 ">Total Revenue</div>
-            <div className='ml-12'>
+            <div className='mx-8 '>
                 <LineChart
                     xAxis={[{ scaleType: 'point', data: months }]}
                     series={[
@@ -29,8 +29,9 @@ const RevenueLineChart = () => {
                             curveType: 'monotone',
                         },
                     ]}
-                    width={620}
-                    height={307}
+                    style={{width:'930px' ,height:'380px'}}
+                    // width={620}
+                    // height={307}
                     tooltip={{}} // Pass an empty object for default tooltip behavior
                     grid={{ vertical: true, horizontal: true }}
                     legend={{ position: { vertical: 'top', horizontal: 'right' } }}

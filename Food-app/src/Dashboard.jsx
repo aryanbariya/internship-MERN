@@ -3,7 +3,7 @@ import { Calendar, ChevronDown } from 'lucide-react';
 
 function Dashboard() {
   return (
-    <div className='w-[1108px] h-[76px] ml-[54px] mt-[20px]  flex justify-between items-center ' >
+    <div className='w-[1468px] h-[76px]  mt-[20px]  flex justify-between items-center ' >
       <div className=' ml-0 '>
         <h1 className='w-[152px] h-[32px] text-[#464255] text-[28px] font-semibold '>Dashboard</h1>
         <span className='w-[364px] h-[22px]  text-[#A3A3A3] text-[16px] font-medium '>Hi, Samantha. Welcome back to Sedap Admin!</span>

@@ -1,12 +1,12 @@
 import React from 'react'
 import { ClipboardList, ArrowUp } from 'lucide-react';
 
-function Total({ count, label, percentage }) {
+function Total({ count, label, percentage, Icon }) {
     return (
-        <div className="w-[227px] h-[172px] p-3 flex justify-center items-center relative bg-white rounded-xl">
-            <div className="w-[216px] h-[99px] relative  flex items-center">
+        <div className="w-[337.24px] h-[172px] p-3 flex justify-center items-center relative bg-white rounded-xl">
+            <div className="w-[197.37px] h-[99px] relative  flex items-center">
                 <div className="w-[85px] h-[85px] rounded-full bg-[#2D9CDB26] flex justify-center items-center">
-                    <ClipboardList className="h-12 w-12" />
+                {Icon && <Icon className="h-12 w-12" />}
                 </div>
                 <div className="w-[92px] h-[99px] absolute right-0 top-1/2 transform -translate-y-1/2 flex flex-col justify-center items-center">
                     <div className="h-[45px] w-[72px] text-[40px] font-bold text-[#0b0a0c] leading-none">{count}</div>

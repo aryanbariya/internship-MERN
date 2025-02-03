@@ -7,8 +7,8 @@ function Piechart() {
     const percentage2 = 22;
     const percentage3 = 62;
     return (
-        <div className='w-[554px] h-[327px]  bg-white  rounded-xl ml-[54px] mt-[25px]'>
-            <div className='w-[554px] h-[43px] flex justify-between pt-[30px]' >
+        <div className='w-[718px] h-[327px]  bg-white  rounded-xl  mt-[25px] px-2'>
+            <div className='w-[665px] h-[43px] flex justify-between pt-[30px]' >
                 <span className='w-[180px] h-[29px] font-bold text-[24px]  ml-[10px] '>Pie Chart</span>
                 <div className='flex'>
                     <div className='w-[80px] h-[24px]  flex'>
@@ -26,7 +26,7 @@ function Piechart() {
             </div>
             <div className='flex justify-between items-center px-[15px] pt-[45px]'>
                 <div className='w-[153px] h-[200px] space-y-3'>
-                    <CircularProgressbar value={percentage1} text={`${percentage1}%`} strokeWidth={16} styles={{
+                    <CircularProgressbar value={percentage1} text={`${percentage1}%`} strokeWidth={24} styles={{
                         path: {
                             stroke: "#d6002d", // Change the progress bar color
                         },
@@ -41,7 +41,7 @@ function Piechart() {
                     <span className='w-[153px] h-[22px] text-[16px] font-semibold ml-6 '>Total Order</span>
                 </div>
                 <div className='w-[153px] h-[200px] space-y-3'>
-                    <CircularProgressbar value={percentage2} text={`${percentage2}%`} strokeWidth={16} styles={{
+                    <CircularProgressbar value={percentage2} text={`${percentage2}%`} strokeWidth={24} styles={{
                         path: {
                             stroke: "#451be5", // Change the progress bar color
                         },
@@ -56,7 +56,7 @@ function Piechart() {
                     <span className='w-[153px] h-[22px] text-[16px] font-semibold ml-4 '>Customer Growth</span>
                 </div>
                 <div className='w-[153px] h-[200px] space-y-3'>
-                    <CircularProgressbar value={percentage3} text={`${percentage3}%`} strokeWidth={16} styles={{
+                    <CircularProgressbar value={percentage3} text={`${percentage3}%`} strokeWidth={24} styles={{
                         path: {
                             stroke: "#894122", // Change the progress bar color
                         },
