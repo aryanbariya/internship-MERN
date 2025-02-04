@@ -32,10 +32,6 @@ function Content() {
         <div className='mt-[25px]'>
           <CustomerReview />
         </div>
-
-      
-
-
     </div>
   )
 }
